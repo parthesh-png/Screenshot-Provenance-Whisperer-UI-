@@ -1,12 +1,25 @@
-# Screenshot Provenance Whisperer
-Makes the correction travel with the screenshot.
+# 🖼 Screenshot Provenance Whisperer
+> “Makes the correction travel with the screenshot.”
 
-## Quickstart
-1) Create a Supabase project and run the schema from the hackathon doc.
-2) Copy `.env.example` to `.env.local` and fill `DATABASE_URL` from Supabase.
-3) Install deps: `npm install`
-4) Seed refs: `npm run seed` (or `npx ts-node scripts/seed_references.ts`)
-5) Run dev: `npm run dev` → open http://localhost:3000
+## 🚀 Overview
+An agentic AI tool that detects misinformation in viral screenshots, finds their original source, verifies claims, and generates corrected versions with context banners and QR codes.
 
-## Flow
-Upload → Detect → Verify → Publish → Download card
+## 🧠 Tech Stack
+- Next.js + Tailwind  
+- Supabase (DB)  
+- tesseract.js (OCR)  
+- sharp + QRCode (Image Composition)  
+- LangGraph / Agentic AI Pipeline
+
+## 🧪 How It Works
+1. Upload a screenshot.
+2. OCR extracts text.
+3. AI detects platform & verifies the claim.
+4. Generates a visual context card with source & verdict.
+
+## 🌐 Deployment
+[Live Link Coming Soon]
+
+## 🤝 Contributors
+parthesh singh
+
